@@ -1,7 +1,7 @@
-# Sneak - Portfolio
+# Rains - Test
 ## Diego Pulido - 2021
 <br>
-Template de página de portafolio. Desarrollado para proceso de selección.<br>
+Desarrollado para proceso de selección.<br>
 --------------------------------------------------------------------------<br>
 Pasos:<br>
 1. Clonar repositorio.<br>

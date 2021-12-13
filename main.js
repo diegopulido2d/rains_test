@@ -62,7 +62,6 @@ window.addEventListener('load', function(e){
         let store1 = document.getElementsByClassName('store1')[0];
         store1.appendChild(card);
 
-        console.log(data[i]);
       }
 
     });   
@@ -110,7 +109,6 @@ window.addEventListener('load', function(e){
           let store2 = document.getElementsByClassName('store2')[0];
           store2.appendChild(card);
   
-          console.log(data[i]);
         }
 
     }); 
