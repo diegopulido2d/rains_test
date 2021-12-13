@@ -80,9 +80,29 @@ nav{
     cursor: pointer;
 }
 
+button{
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 20px;
+    width: 150px;
+    font-family: 'Caudex', serif;
+    font-size: 16px;
+    background-color: white;
+    border: 2px solid #8eac80;
+    color: #8eac80;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #8eac80;
+    color: white;
+    transition: 0.3s;
+}
+
 
 .main{
     margin: 50px 5% 0 5%;
+    max-width: 1600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,16 +111,55 @@ nav{
         border-top: #c2cfd7 solid 1px;
     }
 
+    .hero{
+        padding: 100px 0;
+    }
 
 
+    .destacado{
+        display: flex;
+
+        .columna{
+            width: 50%;
+
+            img{
+                width: 100%;
+            }
+        }
+
+        .coltexto{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 50px;
+
+            h2{
+                font-size: 50px;
+                font-family: 'Caudex', serif;
+                color: #3f3f3f;
+                font-weight: bold;
+                margin: 15px 0;
+            }
+
+            p{
+                margin: 15px 0;
+                font-size: 14px;
+                font-family: 'Montserrat', serif;
+                color: #3f3f3f;
+                max-width: 550px;
+                line-height: 20px;
+            }
+
+        }
+    }
 
     .store{
         display: flex;
-        justify-content: space-around;
         padding: 40px 0;
 
         .card{
-            width: 18%;
+            width: 300px;
+            margin: 0 20px;
             font-family: 'Montserrat', sans-serif;
 
             .imgCont{

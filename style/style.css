@@ -90,8 +90,30 @@ nav {
   cursor: pointer;
 }
 
+button {
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 20px;
+  width: 150px;
+  font-family: 'Caudex', serif;
+  font-size: 16px;
+  background-color: white;
+  border: 2px solid #8eac80;
+  color: #8eac80;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #8eac80;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
 .main {
   margin: 50px 5% 0 5%;
+  max-width: 1600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -108,17 +130,65 @@ nav {
   border-top: #c2cfd7 solid 1px;
 }
 
+.main .hero {
+  padding: 100px 0;
+}
+
+.main .destacado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .destacado .columna {
+  width: 50%;
+}
+
+.main .destacado .columna img {
+  width: 100%;
+}
+
+.main .destacado .coltexto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px;
+}
+
+.main .destacado .coltexto h2 {
+  font-size: 50px;
+  font-family: 'Caudex', serif;
+  color: #3f3f3f;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.main .destacado .coltexto p {
+  margin: 15px 0;
+  font-size: 14px;
+  font-family: 'Montserrat', serif;
+  color: #3f3f3f;
+  max-width: 550px;
+  line-height: 20px;
+}
+
 .main .store {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   padding: 40px 0;
 }
 
 .main .store .card {
-  width: 18%;
+  width: 300px;
+  margin: 0 20px;
   font-family: 'Montserrat', sans-serif;
 }
 
