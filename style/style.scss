@@ -153,6 +153,34 @@ button:hover{
         }
     }
 
+    .twoimg{
+
+        margin: 40px 0;
+
+        h3, h4{
+            font-family: 'Caudex', serif;
+            color: #3f3f3f;
+            font-weight: bold;
+        }
+
+        h3{
+            font-size: 40px;
+        }
+
+        h4{
+            font-size: 30px;
+            margin: 20px 0;
+        }
+
+        .columna:nth-child(1){
+            width: 65%;
+        }
+       
+    }
+
+
+    
+
     .store{
         display: flex;
         padding: 40px 0;
