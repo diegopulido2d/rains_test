@@ -55,12 +55,13 @@ nav {
   display: flex;
 }
 
+.menu-container .dollar {
+  display: none;
+}
+
 .menu-container li {
   list-style-type: none;
   padding: 5px 15px;
-}
-
-.menu-container a {
   text-decoration: none;
   color: #3f3f3f;
   -webkit-transition: 0.2s;
@@ -75,13 +76,14 @@ nav {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  cursor: pointer;
 }
 
-.menu-container a i {
+.menu-container li i {
   font-size: 20px;
 }
 
-.menu-container a:hover {
+.menu-container li:hover {
   color: #8eac80;
 }
 
@@ -253,16 +255,16 @@ button:hover {
   font-size: 14px;
 }
 
-.main .store .card .info .price::before {
-  content: "$ ";
-}
-
 .main .store .card .info .rating span {
   padding: 0 4px;
 }
 
-.main .store .card .info .price, .main .store .card .info .rate {
+.main .store .card .info .price, .main .store .card .info .rate, .main .store .card .info .curr {
   font-weight: bold;
+}
+
+.main .store .card .info .curr {
+  padding-right: 3px;
 }
 
 .main .store .card .info .count {
