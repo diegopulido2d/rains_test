@@ -172,6 +172,9 @@ function euro(){
         document.getElementsByClassName('euro')[0].style.display = 'none';
         document.getElementsByClassName('dollar')[0].style.display = 'block';
 
+        document.getElementsByClassName('euro')[1].style.display = 'none';
+        document.getElementsByClassName('dollar')[1].style.display = 'block';
+
     });
 
 }
@@ -198,6 +201,9 @@ function dollar(){
 
         document.getElementsByClassName('euro')[0].style.display = 'block';
         document.getElementsByClassName('dollar')[0].style.display = 'none';
+
+        document.getElementsByClassName('euro')[1].style.display = 'block';
+        document.getElementsByClassName('dollar')[1].style.display = 'none';
 
     });
 

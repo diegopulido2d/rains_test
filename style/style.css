@@ -540,11 +540,15 @@ button:hover {
     width: 100%;
     -webkit-transition: 0.2s;
     transition: 0.2s;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     background-color: white;
     border-bottom: 1px solid #d8e0e5;
+  }
+  .mobile ul {
+    width: 80%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .menu-container {
     display: none;
@@ -577,6 +581,122 @@ button:hover {
   }
   .menu-button i {
     color: #3f3f3f;
+  }
+  .store {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 40px 0;
+  }
+  .store .card {
+    width: 100%;
+  }
+  .hero {
+    padding: 0 !important;
+    margin-top: 60px;
+  }
+  .destacado {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .destacado .columna {
+    width: 100% !important;
+    margin-bottom: 60px;
+  }
+  .destacado .columna img {
+    width: 100%;
+  }
+  .destacado .coltexto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0 !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .destacado .coltexto h2 {
+    font-size: 50px;
+    font-family: 'Caudex', serif;
+    color: #3f3f3f;
+    font-weight: bold;
+    margin: 15px 0;
+  }
+  .destacado .coltexto p {
+    margin: 15px 0;
+    font-size: 14px;
+    font-family: 'Montserrat', serif;
+    color: #3f3f3f;
+    line-height: 20px;
+  }
+  .twoimg .columna {
+    text-align: center;
+  }
+  .newsletter {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .newsletter h2 {
+    padding-bottom: 30px;
+  }
+  .newsletter #email {
+    margin: 20px 0 !important;
+  }
+  .submenu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .submenu .brand, .submenu .directory {
+    width: 100% !important;
+    text-align: center;
+  }
+  .submenu .social {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .submenu .directory {
+    padding: 0 !important;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .copy {
+    margin-bottom: 30px;
+  }
+  footer .footersec {
+    width: 100% !important;
   }
 }
 /*# sourceMappingURL=style.css.map */

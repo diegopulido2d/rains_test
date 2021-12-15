@@ -517,9 +517,14 @@ button:hover{
         padding: 0;
         width: 100%;
         transition: 0.2s;
-        justify-content: center;
+        justify-content: space-around;
         background-color: white;
         border-bottom: 1px solid #d8e0e5;
+
+        ul{
+            width: 80%;
+            justify-content: space-around;
+        }
     }
 
     .menu-container{
@@ -556,6 +561,125 @@ button:hover{
 
         i{
             color: #3f3f3f;
+        }
+    }
+
+
+
+
+
+    .store{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 0;
+
+        .card{
+            width: 100%;
+
+        }
+
+    }
+
+    .hero{
+        padding: 0 !important;
+        margin-top: 60px;
+    }
+
+
+
+
+
+    .destacado{
+        display: flex;
+        flex-direction: column;
+
+        .columna{
+            width: 100% !important;
+            margin-bottom: 60px;
+
+            img{
+                width: 100%;
+            }
+        }
+
+        .coltexto{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 !important;
+            align-items: center;
+            text-align: center;
+
+            h2{
+                font-size: 50px;
+                font-family: 'Caudex', serif;
+                color: #3f3f3f;
+                font-weight: bold;
+                margin: 15px 0;
+            }
+
+            p{
+                margin: 15px 0;
+                font-size: 14px;
+                font-family: 'Montserrat', serif;
+                color: #3f3f3f;
+                line-height: 20px;
+            }
+
+        }
+    }
+
+    .twoimg{
+        .columna{
+            text-align: center;
+        }
+    }
+
+
+    .newsletter{
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: center;
+        text-align: center;
+
+        h2{
+            padding-bottom: 30px;
+        }
+
+        #email{
+            margin: 20px 0 !important;
+        }
+
+    }
+
+    .submenu{
+        flex-direction: column;
+
+        .brand, .directory{
+            width: 100% !important;
+            text-align: center;
+        }
+
+        .social{
+            justify-content: center;
+        }
+
+        .directory{
+            padding: 0 !important;
+        }
+
+    }
+
+
+    footer{
+        flex-direction: column;
+
+        .copy{
+            margin-bottom: 30px;
+        }
+
+        .footersec{
+            width: 100% !important;
         }
     }
 
